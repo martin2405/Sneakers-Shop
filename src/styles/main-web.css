@@ -1,0 +1,276 @@
+.header {
+    position: relative;
+    height: 100vh;
+    min-height: 841px;
+    background-size: cover;
+    background-image: url('../img/background-image.jpg');
+}
+
+.header-h1 {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 60px;
+    width: 100%;
+}
+
+.header-input {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 100%;
+    padding: 30px 20px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+}
+
+.header-btn {
+    position: absolute;
+    top: 0;
+    right: 5%;
+    width: 50px;
+    height: 100%;
+    font-size: 22px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.section-products-title {
+    margin: 10px 0;
+    font-size: 2em;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 250px;
+    margin: 0 20px 50px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.products .product {
+    margin-right: 15px;
+}
+
+.info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+.info-h1 {
+    width: 92%;
+    margin: 20px auto 100px;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    margin-bottom: 100px;
+}
+
+.section-conteiner {
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.img-conteiner-main-web {
+    width: 65px;
+    height: 65px;
+    margin: 0 auto 15px;
+    border: 5px solid;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 55px;
+}
+
+.section-describe {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media (orientation: landscape) {
+    .header-h1 {
+        width: 100%;
+        top: 30%;
+    }
+
+    .header-input {
+        width: 70%;
+    }
+
+    .header-btn {
+        right: 15%;
+    }
+
+    .header-form {
+        top: 70%;
+    }
+
+    .products {
+        height: 340px;
+    }
+}
+
+@media (min-width: 374px) and (orientation: portrait) {
+    .header-h1 {
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 481px) and (orientation: portrait) {
+    .header-h1 {
+        width: 100%;
+        font-size: 60px;
+        letter-spacing: 3px;
+    }
+
+    .header-form {
+        top: 55%;
+        height: 70px;
+    }
+
+    .header-input {
+        padding: 20px 30px;
+        font-size: 25px;
+    }
+
+    .header-btn {
+        width: 100px;
+        font-size: 30px;
+    }
+
+    .section-products-title {
+        font-size: 2.5em;
+    }
+
+    .products {
+        height: 400px;
+    }
+
+    .info-h1 {
+        font-size: 52px;
+        line-height: 80px;
+    }
+
+    .section-conteiner {
+        font-size: 27px;
+    }
+
+    .section-describe {
+        font-size: 21px;
+    }
+
+    .img-conteiner-main-web {
+        width: 85px;
+        height: 85px;
+        font-size: 40px;
+        line-height: 73px;
+    }
+}
+
+@media (min-width: 819px) {
+    .products {
+        height: 500px;
+    }
+
+    .header-h1 {
+        top: 20%;
+        left: 50%;
+        width: 70%;
+        transform: translate(-50%);
+        font-size: 80px;
+        background-color: transparent;
+    }
+
+    .header-h1 span {
+        padding: 5px 10px;
+        background-color: black;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .header {
+        height: 85vh;
+        min-height: 714px;
+    }
+
+    .header-h1 {
+        width: 50vw;
+        font-size: 97px;
+    }
+
+    .header-input {
+        width: 30%;
+        font-size: 22px;
+    }
+
+    .header-btn {
+        right: 33%;
+    }
+
+    .section-products-title {
+        margin: 20px 0;
+        font-size: 3em;
+    }
+
+    .section-main {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .products {
+        height: 350px;
+    }
+
+    .info {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .info-h1 {
+        margin: 40px auto 100px;
+        font-size: 40px;
+    }
+
+    .info-section {
+        flex-basis: 33%;
+    }
+}
+
+@media (min-width: 1670px) {
+    .header-h1 {
+        width: 40%;
+        font-size: 100px;
+    }
+}

@@ -1,0 +1,135 @@
+.collections-info {
+    position: relative;
+    height: 70px;
+    margin-top: 60px;
+}
+
+.collections-info::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    content: '';
+    height: 1px;
+    width: 100%;
+    background-color: rgb(167, 167, 167);
+}
+
+.collections-counter {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    font-style: italic;
+}
+
+.collections-search {
+    width: 70%;
+    height: 35px;
+    margin: 20px 0 20px 15%;
+    padding: 5px 10px;
+    font-size: 17px;
+}
+
+.all-products-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-height: 100vh;
+    padding: 0 10px;
+}
+
+.all-products-list .product {
+    width: 43%;
+    height: 45vw;
+    margin: 0 0 50px 0;
+}
+
+.collections-select {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    width: 45%;
+    height: 30px;
+    padding: 2px 0 2px 5px;
+    margin-left: calc((100% - 75%) / 2);
+}
+
+@media (min-width: 481px) and (orientation: portrait) {
+    .collections-info {
+        margin-top: 100px;
+    }
+
+    .collections-counter {
+        font-size: 23px;
+    }
+
+    .collections-select {
+        width: 30%;
+        height: 48px;
+        padding: 5px 0 5px 10px;
+        font-size: 20px;
+    }
+
+    .collections-search {
+        height: 50px;
+        padding: 5px 20px;
+        margin: 25px 0 20px 15%;
+        font-size: 25px;
+    }
+
+    .all-products-list .product {
+        width: 45%;
+        height: 60vw;
+    }
+
+    .all-products-list .img-conteiner {
+        height: 35vw;
+    }
+
+    .all-products-list .title {
+        margin: 5px 0 0 0;
+    }
+}
+
+@media (min-width: 819px) {
+    .all-products-list .product {
+        width: 45%;
+        height: 60vw;
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .collections-info {
+        height: 100px;
+        margin-top: 80px;
+    }
+
+    .collections-counter {
+        left: 15%;
+        font-size: 30px;
+    }
+
+    .collections-select {
+        height: 40px;
+        width: 15%;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+
+    .collections-search {
+        width: 30%;
+        height: 45px;
+        padding: 5px 10px;
+        margin: 20px 0 20px 35%;
+        font-size: 17px;
+    }
+
+    .all-products-list .product {
+        width: 21%;
+        height: 30vw;
+        margin-bottom: 120px;
+    }
+}

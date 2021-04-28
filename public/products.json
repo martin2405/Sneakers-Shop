@@ -1,0 +1,484 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "img": "/imgs-products/dunk-low-brazil-2020.png",
+            "name": "Nike Dunk Low Brazil",
+            "price": "800.00",
+            "sizes": [36, 38, 40, 40.5, 41, 43, 44.5],
+            "tags": ["dunk"]
+        },
+        {
+            "id": 2,
+            "img": "/imgs-products/dunk-low-sp-kentucky.png",
+            "name": "Nike Dunk Low SP Kentucky",
+            "price": "1600.00",
+            "sizes": [43, 44, 44.5, 45, 46, 47],
+            "tags": ["dunk"]
+        },
+        {
+            "id": 3,
+            "img": "/imgs-products/dunk-low-samba-2020.png",
+            "name": "Nike Dunk Low Co.JP Samba",
+            "price": "750.00",
+            "sizes": [38, 39, 40, 41, 42.5, 47],
+            "tags": ["dunk"]
+        },
+        {
+            "id": 4,
+            "img": "/imgs-products/sb-dunk-low-safari.png",
+            "name": "Nike SB Dunk Low Safari",
+            "price": "1000.00",
+            "sizes": [36, 40, 40.5, 41, 42.5, 44],
+            "tags": ["dunk"]
+        },
+        {
+            "id": 5,
+            "img": "/imgs-products/dunk-low-sp-viotech.png",
+            "name": "Nike Dunk Low Viotech",
+            "price": "1100.00",
+            "sizes": [37, 37.5, 38, 39],
+            "tags": ["dunk"]
+        },
+        {
+            "id": 6,
+            "img": "/imgs-products/sb-dunk-low-parra.png",
+            "name": "Nike SB Dunk Low Parra",
+            "price": "1400.00",
+            "sizes": [37, 40, 42, 43],
+            "tags": ["dunk"]
+        },
+        {
+            "id": 7,
+            "img": "/imgs-products/dunk-low-white-black-2021.png",
+            "name": "Nike Dunk Low White Black",
+            "price": "1000.00",
+            "sizes": [37, 38, 39, 40],
+            "tags": ["dunk"]
+        },
+        {
+            "id": 8,
+            "img": "/imgs-products/dunk-low-orange-pearl-w.png",
+            "name": "Nike Dunk Low Orange Pearl",
+            "price": "800.00",
+            "sizes": [40, 41, 42, 44],
+            "tags": ["dunk"]
+        },
+        {
+            "id": 9,
+            "img": "/imgs-products/dunk-low-coast-w.png",
+            "name": "Nike Dunk Low Coast",
+            "price": "1100.00",
+            "sizes": [36, 38, 42, 44],
+            "tags": ["dunk"]
+        },
+        {
+            "id": 10,
+            "img": "/imgs-products/dunk-low-medium-curry.png",
+            "name": "Nike Dunk Low Medium Curry",
+            "price": "1200.00",
+            "sizes": [39, 40, 41, 42],
+            "tags": ["dunk"]
+        },
+        {
+            "id": 11,
+            "img": "/imgs-products/dunk-low-team-green.png",
+            "name": "Nike Dunk Low Team Green",
+            "price": "900.00",
+            "sizes": [41, 42, 43, 44],
+            "tags": ["dunk"]
+        },
+        {
+            "id": 12,
+            "img": "/imgs-products/dunk-low-michigan.png",
+            "name": "Nike Dunk Low Michigan",
+            "price": "1400.00",
+            "sizes": [43, 44, 45],
+            "tags": ["dunk"]
+        },
+        {
+            "id": 13,
+            "img": "/imgs-products/dunk-low-sp-city-market.png",
+            "name": "Nike Dunk Low City Market",
+            "price": "1600.00",
+            "sizes": [40, 44, 45, 46],
+            "tags": ["dunk"]
+        },
+        {
+            "id": 14,
+            "img": "/imgs-products/dunk-low-black-hyper-cobalt-2021.png",
+            "name": "Nike Dunk Low Black Hyper Cobalt",
+            "price": "600.00",
+            "sizes": [40, 41, 42],
+            "tags": ["dunk"]
+        },
+        {
+            "id": 15,
+            "img": "/imgs-products/dunk-low-green-glow-w.png",
+            "name": "Nike Dunk Low Green Glow",
+            "price": "1200.00",
+            "sizes": [41, 43, 46],
+            "tags": ["dunk"]
+        },
+        {
+            "id": 16,
+            "img": "/imgs-products/dunk-high-varsity-maize.png",
+            "name": "Nike Dunk High Varsity Maize",
+            "price": "750.00",
+            "sizes": [36, 36.5, 37.5, 38, 38.5],
+            "tags": ["dunk"] 
+        },
+        {
+            "id": 17,
+            "img": "/imgs-products/dunk-high-ambush-active-fuchsia.png",
+            "name": "Nike Dunk High Ambush Active Fuchsia",
+            "price": "850.00",
+            "sizes": [40, 40.5, 41, 42, 42.5],
+            "tags": ["dunk"]
+        },
+        {
+            "id": 18,
+            "img": "/imgs-products/sb-dunk-high-dog-walker.png",
+            "name": "Nike SB Dunk High Dog Walker",
+            "price": "1900.00",
+            "sizes": [43, 44, 44.5, 45],
+            "tags": ["dunk"]
+        },
+        {
+            "id": 19,
+            "img": "/imgs-products/dunk-high-syracuse-2021.png",
+            "name": "Nike Dunk High Syracuse",
+            "price": "650.00",
+            "sizes": [40, 40.5, 41, 42],
+            "tags": ["dunk"]
+        },
+        {
+            "id": 20,
+            "img": "/imgs-products/dunk-high-dark-sulfur-w.png",
+            "name": "Nike Dunk High Dark Sulfur",
+            "price": "850.00",
+            "sizes": [40, 41, 42, 43, 44, 45],
+            "tags": ["dunk"]
+        },
+        {
+            "id": 21,
+            "img": "/imgs-products/air-jordan-1-high-light-smoke-grey.png",
+            "name": "Jordan 1 Retro High Light Smoke Grey",
+            "price": "1200.00",
+            "sizes": [41, 42, 42.5, 43, 44],
+            "tags": ["jordan"]
+        },
+        {
+            "id": 22,
+            "img": "/imgs-products/air-jordan-1-high-court-purple-white.png",
+            "name": "Jordan 1 Retro High Court Purple White",
+            "price": "1400.00",
+            "sizes": [36, 39, 40, 41],
+            "tags": ["jordan"]
+        },
+        {
+            "id": 23,
+            "img": "/imgs-products/air-jordan-1-high-dark-mocha.png",
+            "name": "Jordan 1 Retro High Dark Mocha",
+            "price": "1900.00",
+            "sizes": [36, 37, 37.5, 38, 39],
+            "tags": ["jordan"]
+        },
+        {
+            "id": 24,
+            "img": "/imgs-products/air-jordan-1-high-obsidian-unc.png",
+            "name": "Jordan 1 Retro High Obsidian UNC",
+            "price": "2100.00",
+            "sizes": [38, 39, 40, 40.5, 41, 42],
+            "tags": ["jordan"]
+        },
+        {
+            "id": 25,
+            "img": "/imgs-products/air-jordan-1-high-white-university-blue-black.png",
+            "name": "Jordan 1 High White University",
+            "price": "1500.00",
+            "sizes": [40, 41, 42, 43, 45],
+            "tags": ["jordan"]
+        },
+        {
+            "id": 26,
+            "img": "/imgs-products/air-jordan-1-high-lucky-green-w.png",
+            "name": "Jordan 1 High Lucky Green",
+            "price": "1200.00",
+            "sizes": [42, 43, 44, 45],
+            "tags": ["jordan"]
+        },
+        {
+            "id": 27,
+            "img": "/imgs-products/air-jordan-1-high-fearless-unc-chicago.png",
+            "name": "Jordan 1 High Fearless UNC",
+            "price": "1350.00",
+            "sizes": [40, 41, 42, 43],
+            "tags": ["jordan"]
+        },
+        {
+            "id": 28,
+            "img": "/imgs-products/air-jordan-1-high-white-black-volt-university-gold.png",
+            "name": "Jordan 1 High White Black Volt",
+            "price": "1200.00",
+            "sizes": [41, 42, 43, 44],
+            "tags": ["jordan"]
+        },
+        {
+            "id": 29,
+            "img": "/imgs-products/air-jordan-1-high-tie-dye-w.png",
+            "name": "Jordan 1 High Tie Dye",
+            "price": "1350.00",
+            "sizes": [42, 43, 44, 45],
+            "tags": ["jordan"]
+        },
+        {
+            "id": 30,
+            "img": "/imgs-products/air-jordan-1-high-patina.png",
+            "name": "Jordan 1 High Patina",
+            "price": "900.00",
+            "sizes": [41, 42, 43, 44, 45, 46],
+            "tags": ["jordan"]
+        },
+        {
+            "id": 31,
+            "img": "/imgs-products/air-jordan-1-high-j-balvin.png",
+            "name": "Jordan 1 High J. Balvin",
+            "price": "1850.00",
+            "sizes": [44, 45, 46, 47],
+            "tags": ["jordan"]
+        },
+        {
+            "id": 32,
+            "img": "/imgs-products/air-jordan-1-low-sb-unc.png",
+            "name": "Jordan 1 Low SB UNC",
+            "price": "2100.00",
+            "sizes": [36, 38, 40, 41, 42, 44],
+            "tags": ["jordan"]
+        },
+        {
+            "id": 33,
+            "img": "/imgs-products/air-jordan-4-black-cat.png",
+            "name": "Jordan 4 Retro Black Cat",
+            "price": "2400.00",
+            "sizes": [43, 44, 45, 46, 47],
+            "tags": ["jordan"]
+        },
+        {
+            "id": 34,
+            "img": "/imgs-products/air-jordan-4-metallic-orange.png",
+            "name": "Jordan 4 Retro Metallic Orange",
+            "price": "1800.00",
+            "sizes": [41, 42, 42.5, 43, 44],
+            "tags": ["jordan"]
+        },
+        {
+            "id": 35,
+            "img": "/imgs-products/air-jordan-4-taupe-haze.png",
+            "name": "Jordan 4 Retro Taupe Haze",
+            "price": "1600.00",
+            "sizes": [43, 44, 44.5, 45, 46, 47],
+            "tags": ["jordan"]
+        },
+        {
+            "id": 36,
+            "img": "/imgs-products/air-jordan-4-university-blue.png",
+            "name": "Jordan 4 University Blue",
+            "price": "2000.00",
+            "sizes": [46, 47, 48, 49],
+            "tags": ["jordan"]
+        },
+        {
+            "id": 37,
+            "img": "/imgs-products/air-jordan-1-mid-barely-orange-w.png",
+            "name": "Jordan 1 Mid Barely Orange",
+            "price": "1100.00",
+            "sizes": [40, 41, 42],
+            "tags": ["jordan"]
+        },
+        {
+            "id": 38,
+            "img": "/imgs-products/air-jordan-1-mid-barely-rose-w.png",
+            "name": "Jordan 1 Mid Barely Rose",
+            "price": "1050.00",
+            "sizes": [38, 39, 40, 41],
+            "tags": ["jordan"]
+        },
+        {
+            "id": 39,
+            "img": "/imgs-products/air-jordan-1-mid-signal-blue.png",
+            "name": "Jordan 1 Mid Signal Blue",
+            "price": "700.00",
+            "sizes": [36, 37, 38],
+            "tags": ["jordan"]
+        },
+        {
+            "id": 40,
+            "img": "/imgs-products/air-jordan-1-mid-incredible-hulk.png",
+            "name": "Jordan 1 Mid Hulk",
+            "price": "850.00",
+            "sizes": [41, 43, 44, 45],
+            "tags": ["jordan"]
+        },
+        {
+            "id": 41,
+            "img": "/imgs-products/yeezy-boost-350-v2-bred.png",
+            "name": "Yeezy Boost 350 V2 Black Red",
+            "price": "1400.00",
+            "sizes": [36, 37, 38, 39, 40],
+            "tags": ["yeezy"]
+        },
+        {
+            "id": 42,
+            "img": "/imgs-products/yeezy-boost-350-v2-zebra.png",
+            "name": "Yeezy Boost 350 V2 Zebra",
+            "price": "1300.00",
+            "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
+            "tags": ["yeezy"]
+        },
+        {
+            "id": 43,
+            "img": "/imgs-products/yeezy-boost-350-v2-cloud-white.png",
+            "name": "Yeezy Boost 350 V2 Cloud White",
+            "price": "1700.00",
+            "sizes": [36, 37.5, 38, 39],
+            "tags": ["yeezy"]
+        },
+        {
+            "id": 44,
+            "img": "/imgs-products/yeezy-boost-350-v2-zyon.png",
+            "name": "Yeezy Boost 350 V2 Zyon",
+            "price": "1000.00",
+            "sizes": [36, 37, 38, 39, 40],
+            "tags": ["yeezy"]
+        },
+        {
+            "id": 45,
+            "img": "/imgs-products/yeezy-boost-350-v2-cinder.png",
+            "name": "Yeezy Boost 350 V2 Cinder",
+            "price": "1400.00",
+            "sizes": [42, 43, 44, 46],
+            "tags": ["yeezy"]
+        },
+        {
+            "id": 46,
+            "img": "/imgs-products/yeezy-boost-350-v2-ash-stone.png",
+            "name": "Yeezy 350 V2 Ash Stone",
+            "price": "1250.00",
+            "sizes": [36, 37, 39],
+            "tags": ["yeezy"]
+        },
+        {
+            "id": 47,
+            "img": "/imgs-products/yeezy-boost-350-v2-ash-pearl.png",
+            "name": "Yeezy 350 V2 Ash Pearl",
+            "price": "1150.00",
+            "sizes": [37, 39, 40, 41],
+            "tags": ["yeezy"]
+        },
+        {
+            "id": 48,
+            "img": "/imgs-products/yeezy-boost-350-v2-yecheil.png",
+            "name": "Yeezy 350 V2 Yecheil",
+            "price": "1800.00",
+            "sizes": [36, 37, 38],
+            "tags": ["yeezy"]
+        },
+        {
+            "id": 49,
+            "img": "/imgs-products/yeezy-boost-350-v2-yeezreel.png",
+            "name": "Yeezy 350 V2 Yeezreel",
+            "price": "1600.00",
+            "sizes": [37, 38, 39, 40],
+            "tags": ["yeezy"]
+        },
+        {
+            "id": 50,
+            "img": "/imgs-products/yeezy-boost-350-v2-fade.png",
+            "name": "Yeezy 350 V2 Fade",
+            "price": "1650.00",
+            "sizes": [39, 40, 41, 42],
+            "tags": ["yeezy"]
+        },
+        {
+            "id": 51,
+            "img": "/imgs-products/yeezy-boost-350-v2-synth.png",
+            "name": "Yeezy 350 V2 Synth",
+            "price": "2200.00",
+            "sizes": [36, 38, 39],
+            "tags": ["yeezy"]
+        },
+        {
+            "id": 52,
+            "img": "/imgs-products/yeezy-boost-350-v2-carbon.png",
+            "name": "Yeezy 350 V2 Carbon",
+            "price": "1350.00",
+            "sizes": [38, 40, 42],
+            "tags": ["yeezy"]
+        },
+        {
+            "id": 53,
+            "img": "/imgs-products/yeezy-500-soft-vision.png",
+            "name": "Yeezy 500 Soft Vision",
+            "price": "1400.00",
+            "sizes": [36, 37.5, 40, 41, 42],
+            "tags": ["yeezy"]
+        },
+        {
+            "id": 54,
+            "img": "/imgs-products/yeezy-500-stone.png",
+            "name": "Yeezy 500 Stone",
+            "price": "1900.00",
+            "sizes": [36, 37.5, 38, 39, 40],
+            "tags": ["yeezy"]
+        },
+        {
+            "id": 55,
+            "img": "/imgs-products/yeezy-500-salt.png",
+            "name": "Yeezy 500 Salt",
+            "price": "1700.00",
+            "sizes": [36, 38, 43, 44, 45, 46],
+            "tags": ["yeezy"]
+        },
+        {
+            "id": 56,
+            "img": "/imgs-products/yeezy-boost-700-v3-clay-brown.png",
+            "name": "Yeezy 700 V3 Clay Brown",
+            "price": "900.00",
+            "sizes": [40, 40.5, 41, 42, 43],
+            "tags": ["yeezy"]
+        },
+        {
+            "id": 57,
+            "img": "/imgs-products/yeezy-700-v3-kyanite.png",
+            "name": "Yeezy 700 V3 Kyanite",
+            "price": "1400.00",
+            "sizes": [40, 41, 42, 43],
+            "tags": ["yeezy"]
+        },
+        {
+            "id": 58,
+            "img": "/imgs-products/yeezy-700-v3-arzareth.png",
+            "name": "Yeezy 700 V3 Arzareth",
+            "price": "1800.00",
+            "sizes": [42, 44, 46],
+            "tags": ["yeezy"]
+        },
+        {
+            "id": 59,
+            "img": "/imgs-products/yeezy-boost-700-wave-runner.png",
+            "name": "Yeezy Boost 700 Wave Runner Solid Grey",
+            "price": "2100.00",
+            "sizes": [39, 40, 41, 42, 43],
+            "tags": ["yeezy"]
+        },
+        {
+            "id": 60,
+            "img": "/imgs-products/yeezy-boost-700-bright-blue.png",
+            "name": "Yeezy 700 Bright Blue",
+            "price": "1400.00",
+            "sizes": [37, 39, 42],
+            "tags": ["yeezy"]
+        }
+    ]
+}
