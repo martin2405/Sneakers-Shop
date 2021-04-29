@@ -3,10 +3,10 @@ import ProductMiniature from '../components/ProductMiniature';
 const ProductPage = ({products, showProductPage, addToCart, selectedAgain, classBtnAddToCart, props}) => {
 
     const actualProduct = products.filter(product => product.name === props.match.params.name)[0];
-    
-    const sizeList = actualProduct.sizes.map(size => <option value={size} key={size}>{size}</option>)
 
-    let similarProducts = products.filter(product => product.tags.includes(actualProduct.tags[0])).slice(0, 4)
+    const sizeList = actualProduct.sizes.map(size => <option value={size} key={size}>{size}</option>);
+
+    let similarProducts = products.filter(product => product.tags.includes(actualProduct.tags[0])).slice(0, 4);
 
     similarProducts = similarProducts.map(product => <ProductMiniature key={product.id} img={product.img} name={product.name} price={product.price} product={product} showProductPage={showProductPage}/>)
     

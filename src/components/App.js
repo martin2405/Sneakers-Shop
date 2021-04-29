@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
+import {HashRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
 import '../styles/style.css';
 import MainWeb from '../web/MainWeb';
 import TopBar from './TopBar';
@@ -24,7 +24,7 @@ class App extends Component {
   componentDidMount() {
     fetch('products.json')
     .then(response => {
-        return response.json()
+      return response.json()
     })
     .then(jsonData => {
       this.setState(() => ({
@@ -105,12 +105,12 @@ class App extends Component {
         
         <Route path='/' exact render={() => <MainWeb products={products} showProductPage={this.handleShowProductPage} handleSearchValue={this.handleSearchValue}/>}/>
 
-        <Route path='/products' exact render={(props) => <Collections products={products} showProductPage={this.handleShowProductPage} inputValue={collectionsInputValue} props={props}/>}/>
+        <Route path='/products' exact render={(props) => props.history.action === "PUSH" ? <Collections products={products} showProductPage={this.handleShowProductPage} inputValue={collectionsInputValue} props={props}/> : <Redirect to='/'/>}/>
 
-        <Route path='/products/:category' render={(props) => <Collections products={products} showProductPage={this.handleShowProductPage} inputValue=''
-        props={props}/>}/>
+        <Route path='/products/:category' render={(props) => props.history.action === "PUSH" ? <Collections products={products} showProductPage={this.handleShowProductPage} inputValue=''
+        props={props}/> : <Redirect to='/'/>}/>
 
-        <Route path='/product/:name' render={(props) => actualProduct ? <ProductPage products={products} showProductPage={this.handleShowProductPage} addToCart={this.handleAddToCart} selectedAgain={selectedAgain} classBtnAddToCart={classBtnAddToCart} props={props}/> : <Redirect to='/'/>}/>
+        <Route path='/product/:name' render={(props) => actualProduct ?  <ProductPage products={products} showProductPage={this.handleShowProductPage} addToCart={this.handleAddToCart} selectedAgain={selectedAgain} classBtnAddToCart={classBtnAddToCart} props={props}/> : <Redirect to='/'/>}/>
         
         <Route path='/cart' render={() => <Cart productsInCart={productsInCart} removeFromCart={this.handleRemoveFromCart}/>}/>
       </Switch>
