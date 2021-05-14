@@ -12,7 +12,6 @@ class TopBar extends Component {
     state = {
         menuIClass: 'fa-bars',
         barClass: '',
-        categories: [],
     }
 
     componentDidMount() {
@@ -59,7 +58,7 @@ class TopBar extends Component {
         <>
         <div className={`top-bar ${barClass}`} style={selectedAgain ? {filter: 'blur(2px)'} : null}>
             <div className='logo-container'>
-                <NavLink to='/' onClick={() => {document.documentElement.scrollTop = 0; document.body.style.overflow = 'auto'}}>HOME</NavLink>
+                <NavLink to='/' onClick={() => {document.documentElement.scrollTop = 0}}>HOME</NavLink>
             </div>
             <button className='menu-btn bar-btn' onClick={this.handleMenu}><i className={`fas ${menuIClass}`}></i></button>
             <NavLink to='/cart'>

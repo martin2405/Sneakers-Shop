@@ -10,12 +10,12 @@ class Collections extends Component {
   }
 
   componentDidMount() {
-    let products = this.props.products;
+    let filteredProducts = this.props.products;
     const category = this.props.props.match.params.category;
 
-    if (category) products = products.filter(product => product.tags.includes(category));
+    if (category) filteredProducts = filteredProducts.filter(product => product.tags.includes(category));
 
-    const filteredProducts = products.filter(product => product.name.toUpperCase().includes(this.state.inputValue.toUpperCase()));
+    filteredProducts = filteredProducts.filter(product => product.name.toUpperCase().includes(this.state.inputValue.toUpperCase()));
     this.setState(() => ({
       filteredProducts,
       category
