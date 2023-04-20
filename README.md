@@ -1,4 +1,4 @@
 # E-commerce shop
-Buy your favourite sneakers! Check it live [here](http://sneakersshop.marcinrzodkiewicz.pl/)
+https://martin2405.github.io/Sneakers-Shop/
 
 ![photo of website](./src/img/sneakers-shop.png)
